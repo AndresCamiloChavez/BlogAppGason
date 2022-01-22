@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USUARIO/Documents/ProyectosAndroidAndres/BlogApp/app/src/main/res/layout-v31/post_item_view.xml" value="0.1" />
         <entry key="..\:/Users/USUARIO/Documents/ProyectosAndroidAndres/BlogApp/app/src/main/res/layout/activity_main.xml" value="0.17239583333333333" />
-        <entry key="..\:/Users/USUARIO/Documents/ProyectosAndroidAndres/BlogApp/app/src/main/res/layout/fragment_home.xml" value="0.10280797101449275" />
+        <entry key="..\:/Users/USUARIO/Documents/ProyectosAndroidAndres/BlogApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/Documents/ProyectosAndroidAndres/BlogApp/app/src/main/res/layout/post_item_view.xml" value="0.22" />
       </map>
     </option>

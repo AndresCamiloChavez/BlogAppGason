@@ -1,11 +1,10 @@
 package com.devandreschavez.blogappgason.ui.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.devandreschavez.blogappgason.R
+import com.devandreschavez.blogappgason.core.BaseViewHolder
 import com.devandreschavez.blogappgason.data.model.Post
 import com.devandreschavez.blogappgason.databinding.PostItemViewBinding
 

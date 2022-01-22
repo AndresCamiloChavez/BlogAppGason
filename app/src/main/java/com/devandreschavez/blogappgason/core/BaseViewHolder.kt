@@ -1,4 +1,4 @@
-package com.devandreschavez.blogappgason.ui.adapter
+package com.devandreschavez.blogappgason.core
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
