@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210481347351",
+    "project_id": "blogappgason",
+    "storage_bucket": "blogappgason.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210481347351:android:f56334901fa58540ae5552",
+        "android_client_info": {
+          "package_name": "com.devandreschavez.blogappgason"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210481347351-ns2sc0hrmstbglghfphh9ndbk1ubpud0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACYs1Jz8UHvfFyO-KkXU5uuUosKdu6Lag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210481347351-ns2sc0hrmstbglghfphh9ndbk1ubpud0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
