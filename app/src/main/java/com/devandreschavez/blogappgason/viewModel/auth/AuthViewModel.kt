@@ -1,5 +1,6 @@
 package com.devandreschavez.blogappgason.viewModel.auth
 
+import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.liveData
@@ -21,6 +22,14 @@ class AuthViewModel(private val authRepository: AuthRepository) : ViewModel() {
         emit(Result.Loading())
         try {
             emit(Result.Success(authRepository.signUp(email, password, username)))
+        } catch (e: Exception) {
+            emit(Result.Failure(e))
+        }
+    }
+    fun udpateUserProfile(imageProfile: Bitmap, username: String) = liveData(Dispatchers.IO) {
+        emit(Result.Loading())
+        try {
+            emit(Result.Success(authRepository.updateProfile(imageProfile, username)))
         } catch (e: Exception) {
             emit(Result.Failure(e))
         }
