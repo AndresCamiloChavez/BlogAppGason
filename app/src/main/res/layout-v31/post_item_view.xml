@@ -50,5 +50,17 @@
             android:scaleType="center"
             android:clipToOutline="true"
             tools:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_marginHorizontal="10dp"
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="this is a photo description"
+            android:maxLines="4"
+            android:ellipsize="end"
+
+            />
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
